@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08051f"/><stop offset=".55" stop-color="#15104a"/><stop offset="1" stop-color="#25083e"/></linearGradient>
+ <linearGradient id="txt" x1="0" x2="1"><stop stop-color="#b66cff"/><stop offset="1" stop-color="#5fc8ff"/></linearGradient>
+</defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+<g opacity=".16" stroke="#a779ff" fill="none"><circle cx="1080" cy="210" r="100"/><circle cx="1080" cy="210" r="48"/><path d="M980 210h200M1080 110v200M1010 140l140 140M1150 140l-140 140"/></g>
+<rect x="48" y="48" width="92" height="92" rx="18" fill="#151039" stroke="#a26cff" stroke-width="3"/>
+<g fill="#b57cff"><circle cx="94" cy="70" r="9"/><circle cx="72" cy="103" r="9"/><circle cx="116" cy="103" r="9"/><circle cx="94" cy="120" r="9"/></g>
+<path d="M94 70L72 103M94 70l22 33M72 103l22 17M116 103l-22 17" stroke="#6bd9ff" stroke-width="4"/>
+<text x="170" y="82" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="white">LangGraph</text>
+<text x="170" y="128" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="url(#txt)">Content Agent</text>
+<text x="48" y="170" font-family="Arial,sans-serif" font-size="18" fill="#d8cfff">Generate  •  Review  •  Improve  •  Deliver</text>
+<text x="48" y="204" font-family="Arial,sans-serif" font-size="16" fill="#bfb5e8">StateGraph workflow with conditional routing, quality scoring and revision loops</text>
+<g transform="translate(650 65)">
+ <rect width="105" height="65" rx="13" fill="#102c4a" stroke="#47bfff" stroke-width="2"/><text x="22" y="39" font-family="Arial,sans-serif" font-size="16" fill="white">Topic</text>
+ <path d="M112 32h30" stroke="#fff" stroke-width="2"/><path d="M136 25l8 7-8 7" fill="none" stroke="#fff" stroke-width="2"/>
+ <rect x="150" width="125" height="65" rx="13" fill="#2a1648" stroke="#bf6dff" stroke-width="2"/><text x="169" y="39" font-family="Arial,sans-serif" font-size="16" fill="white">Generate</text>
+ <path d="M282 32h30" stroke="#fff" stroke-width="2"/><path d="M306 25l8 7-8 7" fill="none" stroke="#fff" stroke-width="2"/>
+ <rect x="322" width="115" height="65" rx="13" fill="#103b35" stroke="#39e6ad" stroke-width="2"/><text x="340" y="39" font-family="Arial,sans-serif" font-size="16" fill="white">Review</text>
+ <path d="M444 32h30" stroke="#fff" stroke-width="2"/><path d="M468 25l8 7-8 7" fill="none" stroke="#fff" stroke-width="2"/>
+ <rect x="482" width="100" height="65" rx="13" fill="#3d3510" stroke="#ffd52e" stroke-width="2"/><text x="503" y="39" font-family="Arial,sans-serif" font-size="16" fill="white">Score ≥ 8?</text>
+ <path d="M532 70v55" stroke="#ff6aa9" stroke-width="3"/><path d="M525 117l7 9 7-9" fill="none" stroke="#ff6aa9" stroke-width="3"/>
+ <rect x="455" y="132" width="120" height="52" rx="13" fill="#44142f" stroke="#ff4f9a" stroke-width="2"/><text x="482" y="164" font-family="Arial,sans-serif" font-size="16" fill="white">Revise ↻</text>
+ <path d="M450 158H420V95" fill="none" stroke="#ff6aa9" stroke-width="2"/>
+</g>
+<text x="48" y="252" font-family="Arial,sans-serif" font-size="15" fill="#c7b9ff">LangGraph • Groq LLM • StateGraph • Conditional Routing • Revision Loop</text>
+</svg>
