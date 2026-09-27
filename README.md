@@ -1,5 +1,9 @@
 # LangGraph Content Agent
 
+<p align="center">
+  <img src="assets/langgraph-content-agent-banner.svg" alt="LangGraph Content Agent banner" width="100%">
+</p>
+
 An agentic content-generation workflow built with LangGraph. The system generates content, reviews it with an LLM, conditionally revises it, and returns a final version.
 
 ## Workflow
